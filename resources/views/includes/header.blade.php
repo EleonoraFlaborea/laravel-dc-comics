@@ -20,7 +20,7 @@
  <header>
       <div class="navbar">
         <div class="logo"> 
-          <img class="cover narrow" src="{{ asset('images/dc-logo.png')}}" alt="logo">
+          <img class="cover narrow" src="{{asset('images/dc-logo.png')}}" alt="logo" width="100" class="img-fluid">
 
         </div>
         <div class="links">
