@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+header {
+    background-color: white;
+    min-height: 100px;
+
+}
+
+.jumbotron {
+    background-image: url(/public/images/jumbotron.jpg);
+    min-height: 400px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    line-height: 100px;
+}
+
+main {
+    background-color: #1C1C1C;
+    min-height: 400px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.narrow {
+    height: 200px;
+    width: 150px;
+}
+
+.card {
+    display: inline;
+    padding-right: 20px;
+}

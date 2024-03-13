@@ -17,11 +17,19 @@
 
 <body>
 {{--HEADER--}}
+@include('includes.header')
 
 {{--MAIN--}}
+<main class="">
+   <section id="@yield('section-id')">
+   </section>
+</main>
+
 {{--FOOTER--}}
   <footer></footer>
 
+{{--scripts--}}
+@yield('scripts')
 </body>
 
 </html>
