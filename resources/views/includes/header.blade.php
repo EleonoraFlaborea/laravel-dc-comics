@@ -20,12 +20,12 @@
  <header>
       <div class="navbar">
         <div class="logo"> 
-          <img class="cover narrow" src="{{asset('images/dc-logo.png')}}" alt="logo" width="100" class="img-fluid">
+          <img class="cover narrow" src="{{asset('images/dc-logo.png')}}" alt="logo" class="img-fluid">
 
         </div>
         <div class="links">
           <ul>
-            <li><a href="{{ route('home')}}">CHARACTERS</a></li>
+            <li><a class="@if(route::is('home')) active @endif" href="{{ route('home')}}">CHARACTERS</a></li>
             <li><a href="{{ route('products')}}">COMICS</a></li>
             <li><a href="{{ route('movies')}}">MOVIES</a></li>
             <li><a href="#">TV</a></li>
