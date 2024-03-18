@@ -22,11 +22,18 @@
 {{--MAIN--}}
 <main class="">
    <section id="@yield('section-id')">
+      <div class="container">
+        <div class="card main-card my-5 p-5">
+          @yield('card-content')
+         
+        </div>
+      
+      </div>
    </section>
 </main>
 
 {{--FOOTER--}}
-  <footer></footer>
+<footer></footer>
 
 {{--scripts--}}
 @yield('scripts')
